@@ -30,7 +30,7 @@ function main() {
 	print json_encode($data);
 
 	if (!empty($_GET['blog_id']))
-		switch_to_blog($_GET['blog_id']);
+		restore_current_blog();
 
 	die();
 }
