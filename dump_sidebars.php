@@ -31,6 +31,8 @@ function main() {
 
 	if (!empty($_GET['blog_id']))
 		switch_to_blog($_GET['blog_id']);
+
+	die();
 }
 
 main();

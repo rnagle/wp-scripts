@@ -34,6 +34,8 @@ function main() {
 
 	if (!empty($_GET['blog_id']))
 		restore_current_blog();
+
+	die();
 }
 
 main();
