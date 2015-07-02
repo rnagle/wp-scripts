@@ -5,6 +5,14 @@ require_once dirname(dirname(__DIR__)) . '/wp-blog-header.php';
 
 class WPScriptCmd {
 
+	/**
+	 *
+	 * @param (string) $action a name or label for the command. gets assigned to $this->action
+	 * and can be used to modify the behavior of your command.
+	 * @param (array) $attributes the collection of attributes to be set on the instance of
+	 * WPScriptCmd. For example, a value of array('blog_id' => 10) for $attributes would result
+	 * in $this->blog_id being set to 10.
+	 */
 	function __construct($action, $attributes) {
 		$this->action = $action;
 
