@@ -48,7 +48,7 @@ class SidebarsCmd extends WPScriptCmd {
 		$widgets = $json['widgets'];
 
 		if (empty($sidebars) || empty($widgets)) {
-			throw Exception("Invalid sidebar data.");
+			throw new Exception("Invalid sidebar data.");
 		}
 
 		foreach ($widgets as $label => $values) {
