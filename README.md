@@ -1,4 +1,4 @@
- # WP Scripts
+# WP Scripts
 
 A collection of utility scripts for WordPress, meant to be run over http or https.
 
