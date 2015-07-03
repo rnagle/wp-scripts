@@ -1,0 +1,6 @@
+{
+  "require": {
+    "rmccue/requests": ">=1.0",
+    "wp-cli/php-cli-tools": "dev-master"
+  }
+}

@@ -1,1 +1,4 @@
+vendor
 acl.php
+config.php
+composer.lock
